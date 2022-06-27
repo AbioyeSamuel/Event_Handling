@@ -11,14 +11,13 @@ function App() {
   }
   function handleClicked() {
     setHeadingText(name);
+    event.preventDefault();
   }
   function handleMouseOver() {
     setMouseOver(true);
   }
   function handleMouseOut() {
     setMouseOver(false);
-
-    event.preventDefault();
   }
   return (
     <div className="container">
