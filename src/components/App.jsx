@@ -11,6 +11,7 @@ function App() {
   }
   function handleClicked() {
     setHeadingText(name);
+
     event.preventDefault();
   }
   function handleMouseOver() {
@@ -19,6 +20,7 @@ function App() {
   function handleMouseOut() {
     setMouseOver(false);
   }
+
   return (
     <div className="container">
       <h1>Hello {headingText}</h1>
