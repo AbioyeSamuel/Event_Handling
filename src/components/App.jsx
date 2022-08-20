@@ -1,8 +1,14 @@
 import React, { useState } from "react";
 
 function App() {
+  
+//   Input useState()
   const [name, setName] = useState("");
+  
+//   Button click useState()
   const [headingText, setHeadingText] = useState("");
+  
+//   Mouse effect using React Hooks ( useState() ),Ternary operator and conditional rendering
   const [isMouseOver, setMouseOver] = useState(false);
 
   function handleChanged(event) {
